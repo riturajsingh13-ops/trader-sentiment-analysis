@@ -1,14 +1,16 @@
 📊 Trader Performance vs Market Sentiment Analysis
+--
 Data Science Intern Assignment – Primetrade.ai
+--
 📌 Project Overview
-
+--
 This project analyzes how Bitcoin market sentiment (Fear & Greed Index) influences trader behavior and performance on Hyperliquid.
-
 Using over 211,000 trade records, the study evaluates how profitability, win rate, trade frequency, position sizing, and directional bias vary across sentiment regimes such as Extreme Fear, Fear, Neutral, Greed, and Extreme Greed.
-
+--
 The objective is to identify behavioral patterns and derive actionable, sentiment-aware trading insights.
 
 📂 Dataset Description
+
 1️⃣ Fear & Greed Index (fear_greed_index.csv)
 
 Date
@@ -190,4 +192,5 @@ Run all cells
 Rituraj Singh
 Aspiring Data Analyst
 📧 Open to Data Analyst & Business Analyst roles
+
 
