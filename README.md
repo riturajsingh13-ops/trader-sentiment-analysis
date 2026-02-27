@@ -70,32 +70,32 @@ Drawdown proxy (cumulative PnL vs running max)
 📊 Key Findings
 --
 🔹 1. Profitability Peaks During Extreme Greed
+--
+1. Highest average PnL: 67.89
 
-Highest average PnL: 67.89
+2. Highest win rate: 46.5%
 
-Highest win rate: 46.5%
-
-Strong alignment with bullish momentum environments
+3. Strong alignment with bullish momentum environments
 
 🔹 2. Fear Regimes Drive Aggressive Trading Behavior
+--
+1. Highest trade activity: 61,837 trades
 
-Highest trade activity: 61,837 trades
+2. Largest average position size: 7,816 USD
 
-Largest average position size: 7,816 USD
-
-Suggests volatility-driven participation rather than pure optimism
+3. Suggests volatility-driven participation rather than pure optimism
 
 🔹 3. Profitability Driven by Asymmetric Payoffs
+--
+1. Win rates below 50% across all regimes
 
-Win rates below 50% across all regimes
-
-Positive average PnL indicates larger winning trades outweigh losses
+2. Positive average PnL indicates larger winning trades outweigh losses
 
 🔹 4. Sell-Side Dominance Across Regimes
+--
+1. SELL trades slightly exceed BUY trades in most sentiment states
 
-SELL trades slightly exceed BUY trades in most sentiment states
-
-Suggests profit-taking or contrarian behavior
+2. Suggests profit-taking or contrarian behavior
 
 🧠 Behavioral Interpretation
 --
@@ -107,32 +107,32 @@ The findings suggest that regime-aware strategy design may significantly improve
 📈 Strategy Recommendations
 --
 1️⃣ Volatility-Controlled Exposure in Fear Regimes
+--
+1. Reduce position size caps
 
-Reduce position size caps
-
-Implement tighter risk management rules
+2. Implement tighter risk management rules
 
 2️⃣ Structured Momentum Participation in Extreme Greed
+--
+1. Gradual position scaling
 
-Gradual position scaling
-
-Avoid excessive leverage expansion
+2. Avoid excessive leverage expansion
 
 3️⃣ Capital Preservation in Neutral Regimes
+--
+1. Reduce trade frequency
 
-Reduce trade frequency
-
-Focus on high-conviction setups only
+2. Focus on high-conviction setups only
 
 🔮 Optional Extension
-
+--
 A simple classification model was implemented to predict trade profitability using:
 
-Sentiment regime
+1. Sentiment regime
 
-Position size
+2. Position size
 
-Trade characteristics
+3. Trade characteristics
 
 This demonstrates potential for sentiment-aware predictive modeling.
 
@@ -192,6 +192,7 @@ Incorporating sentiment-aware rules into strategy design can improve capital eff
 Rituraj Singh
 Aspiring Data Analyst
 📧 Open to Data Analyst & Business Analyst roles
+
 
 
 
