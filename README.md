@@ -147,6 +147,7 @@ This demonstrates potential for sentiment-aware predictive modeling.
 4. Matplotlib / Seaborn 
 
 📁 Project Structure
+--
 ```
 Trader-Sentiment-Analysis/
 │
@@ -192,6 +193,7 @@ Incorporating sentiment-aware rules into strategy design can improve capital eff
 Rituraj Singh
 Aspiring Data Analyst
 📧 Open to Data Analyst & Business Analyst roles
+
 
 
 
