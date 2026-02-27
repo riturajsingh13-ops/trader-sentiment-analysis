@@ -54,18 +54,18 @@ Final merged dataset size: 211,218 rows
 ⚙️ Feature Engineering
 --
 The following metrics were created:
+--
+1. Daily PnL per trader
 
-Daily PnL per trader
+2. Win rate per trader
 
-Win rate per trader
+3. Average trade size
 
-Average trade size
+4. Trades per day
 
-Trades per day
+5. Long/Short (BUY/SELL) distribution
 
-Long/Short (BUY/SELL) distribution
-
-Drawdown proxy (cumulative PnL vs running max)
+6. Drawdown proxy (cumulative PnL vs running max)
 
 📊 Key Findings
 --
@@ -156,9 +156,8 @@ Trader-Sentiment-Analysis/
 |── fear_greed_index.csv
 |── historical_data.csv
 │
-├── notebooks/
-│   └── sentiment_trader_analysis.ipynb
-│
+├── notebooks.ipynb
+│  
 ├── output_charts/
 │   ├── avg_pnl_by_sentiment.png
 │   ├── win_rate_by_sentiment.png
@@ -196,6 +195,7 @@ Rituraj Singh
 Aspiring Data Analyst
 
 📧 Open to Data Analyst & Business Analyst roles
+
 
 
 
