@@ -6,19 +6,19 @@ Data Science Intern Assignment – Primetrade.ai
 --
 This project analyzes how Bitcoin market sentiment (Fear & Greed Index) influences trader behavior and performance on Hyperliquid.
 Using over 211,000 trade records, the study evaluates how profitability, win rate, trade frequency, position sizing, and directional bias vary across sentiment regimes such as Extreme Fear, Fear, Neutral, Greed, and Extreme Greed.
---
+
 The objective is to identify behavioral patterns and derive actionable, sentiment-aware trading insights.
-
+--
 📂 Dataset Description
-
+--
 1️⃣ Fear & Greed Index (fear_greed_index.csv)
-
+--
 Date
 
 Classification (Extreme Fear, Fear, Neutral, Greed, Extreme Greed)
 
 2️⃣ Historical Trade Data (historical_data.csv)
-
+--
 Account
 
 Coin
@@ -40,7 +40,7 @@ Trade ID
 Other trade metadata
 
 🧹 Data Preparation
-
+--
 Cleaned column names and removed duplicates
 
 Corrected timestamp parsing (used Timestamp IST due to corrupted Unix column)
@@ -50,9 +50,9 @@ Converted both datasets to daily granularity
 Performed inner join on Date
 
 Final merged dataset size: 211,218 rows
-
+--
 ⚙️ Feature Engineering
-
+--
 The following metrics were created:
 
 Daily PnL per trader
@@ -68,6 +68,7 @@ Long/Short (BUY/SELL) distribution
 Drawdown proxy (cumulative PnL vs running max)
 
 📊 Key Findings
+--
 🔹 1. Profitability Peaks During Extreme Greed
 
 Highest average PnL: 67.89
@@ -97,13 +98,14 @@ SELL trades slightly exceed BUY trades in most sentiment states
 Suggests profit-taking or contrarian behavior
 
 🧠 Behavioral Interpretation
-
+--
 Traders appear more volatility-responsive than momentum-biased.
 While Extreme Greed delivers the strongest performance, Fear regimes show the highest risk-taking intensity. Neutral conditions provide the weakest edge.
 
 The findings suggest that regime-aware strategy design may significantly improve risk-adjusted returns.
 
 📈 Strategy Recommendations
+--
 1️⃣ Volatility-Controlled Exposure in Fear Regimes
 
 Reduce position size caps
@@ -135,16 +137,14 @@ Trade characteristics
 This demonstrates potential for sentiment-aware predictive modeling.
 
 🛠️ Tech Stack
+--
+1. Python
 
-Python
+2. Pandas
 
-Pandas
+3. NumPy
 
-NumPy
-
-Matplotlib / Seaborn
-
-Scikit-learn (optional model)
+4. Matplotlib / Seaborn 
 
 📁 Project Structure
 ```
@@ -171,7 +171,7 @@ Trader-Sentiment-Analysis/
 
   ```   
 🎯 Conclusion
-
+--
 
 Market sentiment materially influences trader behavior and profitability on Hyperliquid.
 Extreme Greed environments maximize performance, while Fear regimes amplify risk-taking intensity.
@@ -179,18 +179,19 @@ Extreme Greed environments maximize performance, while Fear regimes amplify risk
 Incorporating sentiment-aware rules into strategy design can improve capital efficiency and reduce volatility exposure.
 
 🚀 How to Run
+--
+1. Clone the repository
 
-Clone the repository
+2. Install dependencies
 
-Install dependencies
+3. Open notebook.ipynb
 
-Open notebook.ipynb
-
-Run all cells
+4. Run all cells
 
 👤 Author
 Rituraj Singh
 Aspiring Data Analyst
 📧 Open to Data Analyst & Business Analyst roles
+
 
 
